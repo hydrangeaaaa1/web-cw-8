@@ -34,19 +34,19 @@
       <div class="board">
         <table>
           <tr>
-            <td onclick="press('02')"></td>
-            <td onclick="press('01')" class="v"></td>
-            <td onclick="press('00')"></td>
+            <td id = "00" onclick="press(0,0)"></td>
+            <td id = "01" onclick="press(0,1)" class="v"></td>
+            <td id = "02" onclick="press(0,2)"></td>
           </tr>
           <tr>
-            <td onclick="press('12')" class="h"></td>
-            <td onclick="press('11')" class="v h"></td>
-            <td onclick="press('10')" class="h"></td>
+            <td id = "10" onclick="press(1,0)" class="h"></td>
+            <td id = "11" onclick="press(1,1)" class="v h"></td>
+            <td id = "12" onclick="press(1,2)" class="h"></td>
           </tr>
           <tr>
-            <td onclick="press('22')"></td>
-            <td onclick="press('21')" class="v"></td>
-            <td onclick="press('20')"></td>
+            <td id = "20" onclick="press(2,0)"></td>
+            <td id = "21" onclick="press(2,1)" class="v"></td>
+            <td id = "22" onclick="press(2,2)"></td>
           </tr>
         </table>
       </div>
@@ -56,8 +56,9 @@
       </div>
     </div>
     <div class="rotate">
-      <h1>O</h1>
+      <h1 id="status"> status </h1>
       <h1>X</h1>
+      <button id="reset" > reset </button>
     </div>
     <script src="./myscript.js"></script>
   </body>
