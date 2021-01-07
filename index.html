@@ -12,6 +12,36 @@
   </head>
 
   <body>
+
+    <h2>Modal Example</h2>
+
+    <!-- Trigger/Open The Modal -->
+    <!-- <button id="myBtn">Open Modal</button> -->
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1> Bravooooo👾🎉..</h1>
+      </div>
+    
+    </div>
+    
+
+    
+
+    <audio id="myAudio">
+      <source src="./p1.m4a" type="audio/m4a">
+      <!-- <source src="horse.mp3" type="m4a"> -->
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="myAudio2">
+      <source src="./p2.m4a" type="audio/m4a">
+      <!-- <source src="horse.mp3" type="m4a"> -->
+      Your browser does not support the audio element.
+    </audio>
     <h2>تمرين ٨</h2>
     <div class="rotate">
       <h1>X</h1>
@@ -58,7 +88,8 @@
     <div class="rotate">
       <h1 id="status"> status </h1>
       <h1>X</h1>
-      <button id="reset" > reset </button>
+      <h1>O</h1>
+      <button id="reset" onclick="handleReset()"> reset </button>
     </div>
     <script src="./myscript.js"></script>
   </body>
